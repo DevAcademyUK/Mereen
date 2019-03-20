@@ -27,10 +27,10 @@ public class ducklingClass {
                 System.out.println("1 little duck went swimming one day");
                 System.out.println("Over the hill and far away");
                 System.out.println("Mother duck said Quack Quack Quack");
-                System.out.println("and all her "+ " " +y+" " +"ducks came back");
+                System.out.println("and all her "+ " " + numberOfDucks+" " +"ducks came back");
             }
             else{
-                System.out.println("and only " + i + "ducks came back" + "\n");
+                System.out.println("and only " + y + " " + "ducks came back" + "\n");
             }
         }
     }
