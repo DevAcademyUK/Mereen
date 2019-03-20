@@ -2,7 +2,7 @@ package games;
 
 //commenting exercise
 
-import java.util.Random; //inmporting Random
+import java.util.Random; //importing Random
 import java.util.Scanner; //importing Scanner library
 
 public class rockPaperScissors {  //creating a public class named rockpaperscissors
