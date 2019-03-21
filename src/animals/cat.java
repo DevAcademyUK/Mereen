@@ -14,11 +14,11 @@ public class cat {
         this.nature=nature;
     }
 
-    public String tellTheHuman(String name, String size, String nature){
-        return "\nHello Human, i'm " + name + ".\nI am " + size + " in size  hence " + jump(size) +"\nI am also very " + nature + " in nature hence I " + hide(nature)+ "\n";
+    public String tellTheHuman(String name){
+        return "\nHello Human, i'm " + name + ".\nI am " + size + " in size  hence " + jump() +"\nI am also very " + nature + " in nature hence I " + hide()+ "\n";
     }
 
-    public String jump(String size){
+    public String jump(){
         if(size.equalsIgnoreCase("big")){
             jumpSize="I do huge jumps! ";
             return jumpSize;
@@ -29,12 +29,12 @@ public class cat {
         }
         else {
             jumpSize="I do average jumps";
-            //this.size="average";  //if user enters anything else besides small or big then default is average
+            size="average";  //if user enters anything else besides small or big then default is average
             return jumpSize;
         }
     }
 
-    public String hide(String nature){
+    public String hide(){
         if(nature.equalsIgnoreCase("naughty")){
             hidingAbility="don't need any help hiding! ";
             return hidingAbility;
@@ -45,7 +45,7 @@ public class cat {
         }
         else {
             hidingAbility="may or may not need help hiding... ";
-            //this.nature="basic"; //if user enters something else besides naughty or shy then default assign basic
+            nature="basic"; //if user enters something else besides naughty or shy then default assign basic
             return hidingAbility;
         }
     }

@@ -52,9 +52,9 @@ public class createAnimal {
 
 
         cat myCat = new cat(name, size, nature);
-        myCat.hide(nature);
-        myCat.jump(size);
-        System.out.println(myCat.tellTheHuman(name, size, nature));
+        myCat.hide();
+        myCat.jump();
+        System.out.println(myCat.tellTheHuman(name));
     }
 }
 
