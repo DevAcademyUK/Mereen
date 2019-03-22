@@ -20,44 +20,50 @@ public class parking {
         calculateFees(day, duration, position);
     }
 
-    private void calculateFees(String day, int duration, String position){
+    private void calculateFees(String day, int duration, String position){  //if functions are not being used by any other class, always make them private
         int cost;
         int hourlyrate=0;
         int multiplier=0;
 
-        switch (position){
+        switch (position.toLowerCase()){   //in case user enters capital letters, convert them before comparing
             case "staff":
                 multiplier =2;
                 break;
-            case "Student":
+            case "student":
                 multiplier=1;
-            case "Visitor":
+            case "visitor":
                 multiplier = 3;
                 break;
+            default:
+                System.out.println("Your input was invalid, please try again");
+                return; //will return back to main  methodas we dont want it to display thanks for parking at gateshead
         }
 
-        switch(day){
-            case "Monday":
+        switch(day.toLowerCase()){
+            case "monday":
                 hourlyrate = 2;
                 break;
-            case "Tuesday":
+            case "tuesday":
                 hourlyrate = 2;
                 break;
-            case "Wednesday":
+            case "wednesday":
                 hourlyrate = 3;
                 break;
-            case "Thursday":
+            case "thursday":
                 hourlyrate = 2;
                 break;
-            case "Friday":
+            case "friday":
                 hourlyrate = 3;
                 break;
-            case "Saturday":
+            case "saturday":
                 hourlyrate = 4;
                 break;
-            case "Sunday":
+            case "sunday":
                 hourlyrate = 5;
                 break;
+            default:
+                System.out.println("Invalid input, please try again");
+                return;
         }
 
         cost = (hourlyrate * multiplier) * duration;
