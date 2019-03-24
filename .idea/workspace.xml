@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d77bb12-06c7-4b55-ac4b-c7701e631be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/games/multiplicationdoodad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankingappl/bankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankingappl/bankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bankingappl/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bankingappl/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/switches/parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/switches/parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ducklings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mereen.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bankingappl/bankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="-790">
+              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/games/multiplicationdoodad.java" />
         <option value="$PROJECT_DIR$/src/bankingappl/user.java" />
         <option value="$PROJECT_DIR$/src/bankingappl/bankAccount.java" />
+        <option value="$PROJECT_DIR$/.idea/.name" />
       </list>
     </option>
   </component>
@@ -106,9 +105,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="600" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="18" />
     <option name="width" value="756" />
     <option name="height" value="688" />
   </component>
@@ -118,41 +117,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Ducklings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ducklings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ducklings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ducklings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ducklings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ducklings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ducklings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ducklings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -176,7 +149,7 @@
   <component name="RunManager" selected="Application.bankAccount">
     <configuration name="bankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankingappl.bankAccount" />
-      <module name="Ducklings" />
+      <module name="Mereen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bankingappl.*" />
@@ -189,7 +162,7 @@
     </configuration>
     <configuration name="createAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="animals.createAnimal" />
-      <module name="Ducklings" />
+      <module name="Mereen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="animals.*" />
@@ -202,7 +175,7 @@
     </configuration>
     <configuration name="multiplicationdoodad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="games.multiplicationdoodad" />
-      <module name="Ducklings" />
+      <module name="Mereen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="games.*" />
@@ -215,7 +188,7 @@
     </configuration>
     <configuration name="parking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="switches.parking" />
-      <module name="Ducklings" />
+      <module name="Mereen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="switches.*" />
@@ -228,7 +201,7 @@
     </configuration>
     <configuration name="rockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="games.rockPaperScissors" />
-      <module name="Ducklings" />
+      <module name="Mereen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="games.*" />
@@ -264,17 +237,21 @@
       <workItem from="1553013857626" duration="402000" />
       <workItem from="1553072525177" duration="30244000" />
       <workItem from="1553199229367" duration="1226000" />
-      <workItem from="1553245183690" duration="17703000" />
+      <workItem from="1553245183690" duration="17978000" />
+      <workItem from="1553450358181" duration="436000" />
+      <workItem from="1553451653652" duration="47000" />
+      <workItem from="1553453536190" duration="341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58140000" />
+    <option name="totallyTimeSpent" value="59239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="20" y="18" width="756" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26436782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -290,7 +267,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.91816694" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9171171" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.049099836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -366,6 +343,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bankingappl/user.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -375,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bankingappl/bankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="-790">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -435,7 +415,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Ducklings</last-edited>
+          <last-edited>Mereen</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
