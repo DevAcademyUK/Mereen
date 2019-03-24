@@ -1,4 +1,4 @@
-Assignment 1: Banking Application is in src file named "bankingappl
+Assignment 1: Banking Application is in src file named "bankingappl"
 
 
 Class diagram for project can be found here: https://drive.google.com/file/d/1taSAobP1bzOMNdrb75AWUB0y64yYwvCz/view?usp=sharing
